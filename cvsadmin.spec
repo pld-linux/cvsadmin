@@ -6,6 +6,7 @@ Release:	2
 License:	BSD
 Group:		Applications/System
 Source0:	http://www.cooptel.qc.ca/~limitln/%{name}-%{version}.tar.gz
+# Source0-md5:	2829f202f9079bcaa5aa25452cdb30d6
 URL:		http://www.cooptel.qc.ca/~limitln/cvsadmin/
 BuildRequires:	autoconf
 BuildRequires:	automake
