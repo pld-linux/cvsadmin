@@ -5,8 +5,6 @@ Version:	1.0
 Release:	1
 License:	GPL
 Group:		Applications/System
-Group(de):	Applikationen/System
-Group(pl):	Aplikacje/System
 Source0:	http://www.cooptel.qc.ca/~limitln/%{name}-%{version}.tar.gz
 URL:		http://www.cooptel.qc.ca/~limitln/cvsadmin
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
