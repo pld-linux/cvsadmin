@@ -30,8 +30,8 @@ Narzêdzie do zarz±dzania cvs'em.
 %install
 rm -rf $RPM_BUILD_ROOT
 
-install -d $RPM_BUILD_ROOT%{_prefix}/bin
-install src/cvsadmin $RPM_BUILD_ROOT%{_prefix}/bin/cvsadmin
+install -d $RPM_BUILD_ROOT%{_bindir}
+install src/cvsadmin $RPM_BUILD_ROOT%{_bindir}/cvsadmin
 
 %clean
 rm -rf $RPM_BUILD_ROOT
