@@ -8,6 +8,7 @@ Group:		Applications/System
 Group(de):	Applikationen/System
 Group(pl):	Aplikacje/System
 Source0:	%{name}-%{version}.tar.gz
+URL:		http://www.cooptel.qc.ca/~limitln/cvsadmin
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define         _prefix         /usr
@@ -22,12 +23,15 @@ Narzêdzie do zarz±dzania cvs'em.
 %setup -q
 
 %build
+./configure \
+	--prefix=%{_prefix}
 %{__make}
 
 %install
 rm -rf $RPM_BUILD_ROOT
 
-%{__make} BUILD_ROOT=$RPM_BUILD_ROOT install
+install -d $RPM_BUILD_ROOT%{_prefix}/bin
+install src/cvsadmin $RPM_BUILD_ROOT%{_prefix}/bin/cvsadmin
 
 %clean
 rm -rf $RPM_BUILD_ROOT
