@@ -13,7 +13,7 @@ BuildRequires:	automake
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-cvsadmin is a simple program to administrate users of a CVS repository. 
+cvsadmin is a simple program to administrate users of a CVS repository.
 It currently allows you to easily:
 - add users,
 - remove users,
