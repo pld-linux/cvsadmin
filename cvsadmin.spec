@@ -2,8 +2,8 @@ Summary:	Utility for cvs managment
 Summary(pl):	Narzêdzie do zarz±dzania cvs-em
 Name:		cvsadmin
 Version:	1.0.3
-Release:	1
-License:	GPL
+Release:	2
+License:	BSD
 Group:		Applications/System
 Source0:	http://www.cooptel.qc.ca/~limitln/%{name}-%{version}.tar.gz
 URL:		http://www.cooptel.qc.ca/~limitln/cvsadmin/
@@ -57,6 +57,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc AUTHORS COPYING ChangeLog INSTALL NEWS README TODO doc/backend.txt
+%doc AUTHORS COPYING ChangeLog NEWS README TODO doc/backend.txt
 %attr(755,root,root) %{_bindir}/*
 %{_mandir}/man1/*
