@@ -22,13 +22,13 @@ It currently allows you to easily:
 - change system users.
 
 %description -l pl
-Narzêdzie do zarz±dzania uzytkownikami repozytorium CVS.
-Obecnie umo¿liwia on:
+Narzêdzie do zarz±dzania u¿ytkownikami repozytorium CVS.
+Obecnie umo¿liwia ono:
 - dodanie u¿ytkownika,
 - usuniêcie u¿ytkownika,
 - zmianê has³a u¿ytkownika,
-- przegl±anie listy obecnych u¿ytkowników,
-- znianê logina u¿ytkownika,
+- przegl±danie listy obecnych u¿ytkowników,
+- zmianê nazwy u¿ytkownika,
 - zmianê u¿ytkownika systemowego.
 
 %prep
