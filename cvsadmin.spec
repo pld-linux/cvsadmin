@@ -1,5 +1,5 @@
 Summary:	Utility for cvs managment
-Summary(pl):	Narzêdzie do zarz±dzania cvs-em
+Summary(pl.UTF-8):   NarzÄ™dzie do zarzÄ…dzania cvs-em
 Name:		cvsadmin
 Version:	1.0.3
 Release:	2
@@ -22,15 +22,15 @@ It currently allows you to easily:
 - rename user login,
 - change system users.
 
-%description -l pl
-Narzêdzie do zarz±dzania u¿ytkownikami repozytorium CVS.
-Obecnie umo¿liwia ono:
-- dodanie u¿ytkownika,
-- usuniêcie u¿ytkownika,
-- zmianê has³a u¿ytkownika,
-- przegl±danie listy obecnych u¿ytkowników,
-- zmianê nazwy u¿ytkownika,
-- zmianê u¿ytkownika systemowego.
+%description -l pl.UTF-8
+NarzÄ™dzie do zarzÄ…dzania uÅ¼ytkownikami repozytorium CVS.
+Obecnie umoÅ¼liwia ono:
+- dodanie uÅ¼ytkownika,
+- usuniÄ™cie uÅ¼ytkownika,
+- zmianÄ™ hasÅ‚a uÅ¼ytkownika,
+- przeglÄ…danie listy obecnych uÅ¼ytkownikÃ³w,
+- zmianÄ™ nazwy uÅ¼ytkownika,
+- zmianÄ™ uÅ¼ytkownika systemowego.
 
 %prep
 %setup -q
