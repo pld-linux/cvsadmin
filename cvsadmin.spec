@@ -1,5 +1,5 @@
 Summary:	Utility for cvs managment
-Summary(pl.UTF-8):   Narzędzie do zarządzania cvs-em
+Summary(pl.UTF-8):	Narzędzie do zarządzania cvs-em
 Name:		cvsadmin
 Version:	1.0.3
 Release:	2
